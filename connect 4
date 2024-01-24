@@ -1,0 +1,29 @@
+Here is the html (didnt let me send)
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Connect 4</title>
+  <link rel="stylesheet" href="connect4.css">
+</head>
+<body>
+
+<label for="p1-color">Player 1 Color:</label>
+<input id="p1-color" type="text" placeholder="Enter color for Player 1">
+
+<label for="p2-color">Player 2 Color:</label>
+<input id="p2-color" type="text" placeholder="Enter color for Player 2">
+
+<button id="start-game">Start Game!</button>
+
+<div id="game">
+  <table id="board"></table>
+</div>
+
+<script src="connect4.js"></script>
+
+</body>
+</html>
